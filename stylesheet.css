@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-    font-family: "Lucida Grande";
+    font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -31,21 +31,26 @@ a {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-image: url(images/radek-grzybowski-eBRTYyjwpRY-unsplash.jpg);
     background-size: cover;
     color: white;
     text-align: center;
 }
 
 .top-wrapper h1 {
-    opacity: 0.7;
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
 }
 
-.top-wrapper p {
+.top-wrapper h2 {
     opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.9;
+    margin-top: 10px;
     margin-bottom: 3px;
 }
 
@@ -59,7 +64,8 @@ a {
 }
 
 .signup {
-    background-color: #239b76;
+    margin-top: 20px;
+    background-color: #ee5b20;
 }
 
 .facebook {
@@ -71,17 +77,34 @@ a {
     background-color: #55acee;
 }
 
+.twitter:hover {
+    background-color: #1495f8;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-color: #123e9c;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: #ff4800;
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
 .btn {
     padding: 12px 24px;
     color: white;
     display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-}
-
-.btn:hover {
     opacity: 1;
+    border-radius: 99px;
+    text-align: center;
 }
 
 .fa {
@@ -91,15 +114,16 @@ a {
 header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color: rgba(221, 12, 12, 0.986);
     position :fixed;
     top: 0;
     z-index: 10;
+    box-shadow: 0px 0px 20px 3px rgb(0 0 0);
 }
 
 .logo {
-    width: 124px;
-    margin-top: 20px;
+    width: 45px;
+    margin-top: 10px;
 }
 
 .header-left {
@@ -121,7 +145,8 @@ header {
 }
 
 .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255);
+    color: #303030;
 }
 
 /* BODY */
@@ -129,13 +154,14 @@ header {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background: linear-gradient(180deg,#eeeeee,#ffffff,#ffffff);
     text-align: center;
 }
 .heading {
     padding-top: 80px;
     padding-bottom: 50px;
-    color: #5f5d60;
+    color: #303030;
 }
 
 .heading h2 {
@@ -151,21 +177,36 @@ header {
     position: relative;
 }
 
+.lesson-icon img{
+    height: 100px;
+}
+
+.lesson-icon:hover img {
+    -webkit-transform: scale(1.18);
+    transform: scale(1.18);
+    cursor: pointer;
+  }
+
 .lesson-icon p {
+    margin-top: 10px;
+    font-weight: bold;
     position: absolute;
-    top: 44%;
+    top: 100%;
     width: 100%;
-    color: white;
+    color: #303030;
 }
 
 .txt-contents {
     width: 80%;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 40px;
     font-size: 15px;
-    color: #b3aeb5;
+    color: #303030;
 }
-
+.garis{
+    height: 2px;
+    background-color: #dd0c0c;
+}
 .heading h3 {
     font-weight: normal;
 }
@@ -178,9 +219,15 @@ header {
 
 .message {
     padding: 15px 40px;
-    background-color: #5dca88;
+    background-color: #dd0c0c;
     cursor: pointer;
-    box-shadow: 0 7px #1a7940;
+    font-weight: bold;
+    /* box-shadow: 0 7px #1a7940; */
+}
+
+.message:hover {
+    background-color: #ff1e1e;
+
 }
 
 .message:active {
