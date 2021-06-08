@@ -59,18 +59,16 @@
     .btn {
         width: 100%;
     }
-    .facebook{
-        margin-bottom: 10px;
-    }
-  
+
     .signup {
         background-color: #ee5b20;
         width: 50%;
     }
     .facebook {
+        margin-bottom: 10px;
         background-color: #3b5998;
         margin-right: 10px;
-        width: 50%;
+        width: 80%;
     }
     .twitter {
         background-color: #55acee;
