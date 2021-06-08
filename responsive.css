@@ -1,7 +1,12 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
     .top-wrapper h1 {
-        font-size: 32px;
+        font-size: 42px;
+    }
+    .top-wrapper h2 {
+        opacity: 0.9;
+        margin-bottom: 10px;
+        font-size: 20px;
     }
     .lesson {
         width: 50%;
@@ -10,10 +15,26 @@
     .heading h2 {
         font-size: 20px;
     }
+    h1 {
+        color: rgb(255, 255, 255);
+    }
+
 }
- 
+
+@media all and (max-width: 790px) {
+    .header-right {
+        display: none;
+    }
+    span.menu-icon {
+        display: block;
+    }
+}
+
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+    h1 {
+        color: rgb(255, 255, 255);
+    }
     .header-right {
         display: none;
     }
@@ -41,7 +62,25 @@
     .facebook{
         margin-bottom: 10px;
     }
-    .top-wrapper {
-        text-align: left;
+  
+    .signup {
+        background-color: #ee5b20;
+        width: 50%;
+    }
+    .facebook {
+        background-color: #3b5998;
+        margin-right: 10px;
+        width: 50%;
+    }
+    .twitter {
+        background-color: #55acee;
+        width: 50%;
+    }
+
+    .message {
+        padding: 15px 40px;
+        width: 50%;
+        background-color: #dd0c0c;
+     
     }
 }
