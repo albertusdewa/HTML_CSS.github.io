@@ -45,9 +45,7 @@
         width: 100%;
     }
 
-    footer {
-        text-align: center;
-    }
+
     .top-wrapper h1 {
         font-size: 24px;
         line-height: 36px;
@@ -59,13 +57,15 @@
     .btn {
         width: 100%;
     }
-
+    .facebook{
+        margin-bottom: 10px;
+    }
+  
     .signup {
         background-color: #ee5b20;
         width: 50%;
     }
     .facebook {
-        margin-bottom: 10px;
         background-color: #3b5998;
         margin-right: 10px;
         width: 50%;
