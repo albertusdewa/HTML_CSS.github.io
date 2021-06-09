@@ -13,5 +13,6 @@ Anggota Team A40:
 5. Axel Bramasta
 
 Output :
+
 ![Screenshot 2021-06-09 131253](https://user-images.githubusercontent.com/57712676/121302942-a342c600-c924-11eb-9ff3-b25c1700a5df.png)
 
