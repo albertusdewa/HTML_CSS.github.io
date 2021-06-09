@@ -238,7 +238,7 @@ header {
 
 /* FOOTER */
 footer img {
-    width: 125px;
+    width: 55px;
     text-align: center;
 }
 
@@ -247,9 +247,31 @@ footer p {
     font-size: 12px;
 }
 
+.footer-list {
+    float: right;
+    list-style-type: none;
+}
+
+.footer-list ul{
+    list-style-type: none;
+}
+
 footer {
+    background-color: #202020;
+    color: #fff;
     padding-top: 30px;
-    padding-bottom: 20px;
+}
+
+.tentang{
+    margin-bottom: 10px;
+}
+
+.karier{
+    margin-bottom: 10px;
+}
+
+.hub{
+    margin-bottom: 10px;
 }
 
 /* HAMBURGER BUTTON */
@@ -260,4 +282,5 @@ span.menu-icon {
     padding: 21px 0;
     display: none;
 }
+  
   
